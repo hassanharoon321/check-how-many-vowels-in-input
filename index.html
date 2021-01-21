@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vowel Tracker App</title>
+  </head>
+
+  <body>
+    <div>
+      <!-- heading start -->
+      <div class="container">
+        <h1 class="heading">Vowel Counter</h1>
+      </div>
+      <!-- heading end -->
+
+      <!-- input & button start  -->
+      <div class="input-group container vowels-input">
+        <textarea class="form-control" aria-label="With textarea" id="vowels"></textarea>
+      </div>
+
+      <div class="container btn">
+        <button type="button" class="btn btn-dark" onclick="vowelsCheck()">Check Vowels</button>
+      </div>
+      <!-- input & button end  -->
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
